@@ -119,3 +119,10 @@ wc <file_name>
 ```
 
 In conclusion, the world of Linux and Unix is a vast and fascinating one, and we've only scratched the surface with these basic commands. As we embark on this journey together, rest assured that there will be more insightful blog posts to come, delving deeper into the intricacies of these powerful operating systems. Stay tuned and keep practicing the commands we've explored today, because the more you immerse yourself in this world, the more you'll uncover its endless possibilities. Your Linux and Unix adventure has just begun!
+
+Thank you for visiting, and I look forward to connecting with you and exploring the boundless world of software engineering and innovation.
+
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/1200px-LinkedIn_icon_circle.svg.png" width="45"/>](https://linkedin.com/in/praveensingh23)
+[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="45"/>](https://github.com/praveensinghrajput23)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1024px-Instagram-Icon.png" width="45"/>](https://instagram.com/praveensinghrajput23)
+[<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYAFvsvvSz-ywpPupKs56YpRxW-C6OuOg8Jw&usqp=CAU" width="65"/>](https://twitter.com/_praveensingh23)
