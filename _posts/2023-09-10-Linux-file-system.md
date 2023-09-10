@@ -1,6 +1,6 @@
 ---
 title: "Understanding the File System Hierarchy in Linux and Unix"
-date: 2023-09-07T13:04:56
+date: 2023-09-10
 categories:
   - blog
 tags:
@@ -18,7 +18,29 @@ toc_icon: "cog"
 When you delve into the world of Linux and Unix operating systems, you'll quickly encounter a distinctive feature that sets them apart from other OS families: the file system hierarchy. This organized structure forms the backbone of these operating systems, and understanding it is essential for anyone looking to harness their full potential.
 
 In this blog post, we'll take you on a guided tour of the file system hierarchy in Linux and Unix. From the root directory to the essential system directories, you'll learn how files and directories are organized, what each directory contains, and how this structure plays a crucial role in system management and navigation.
+## Visualize the Directories using `tree`
+It makes sense to explore the Linux filesystem from a terminal window because a terminal, despite being text-only, has better tools to show the map of Linux’s directory tree.
 
+In fact, that is the name of the first tool you’ll install to help you on the way: tree. If you are using Ubuntu or Debian, you can do:
+
+```bash
+sudo apt install tree
+```
+
+On Red Hat or Fedora, do:
+```bash
+sudo dnf install tree
+```
+
+Once installed, stay in your terminal window and run tree like this:
+```bash
+tree /
+```
+Instead of running the above command use the command given below to limit the file to a certain level. I am using to 1st level only.
+```bash
+tree / -L 1
+```
+![]({{site.url}}/assets/file-system-hireracy/unix_tree_structure.png)
 ### 1. The Root Directory (/):
 The starting point of the file system hierarchy is the root directory, denoted simply as "/". Everything in Linux and Unix stems from this directory, and it contains every other directory and file. When you see a forward slash at the beginning of a path, it means you're starting from the root directory.
 
