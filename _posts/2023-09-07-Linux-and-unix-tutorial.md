@@ -1,5 +1,5 @@
 ---
-title: "Exploring the World of Linux and Unix: An In-Depth Overview"
+title: "Linux and Unix: A Beginner Guide"
 date: 2023-09-07T13:04:56
 categories:
   - tutorial
@@ -7,6 +7,7 @@ tags:
   - linux
   - unix
   - ubuntu
+  - command
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
@@ -43,18 +44,78 @@ As an illustration of the way that the shell and the kernel work together, suppo
 
 ![]({{site.url}}/assets/linux-and-unix-tutorial/directory-tree.gif)
 
-Jekyll also offers powerful support for code snippets:
+Soon I will post in-depth blog on Linux direcotory structure 
+{: .notice}
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+###### Now let's explore some basic command about listing and directories and know what they do:
+
+To learn more about the available command options, you can use the `--help` or `--options flag`.
+{: .notice--info}
+
+- To list down files and folders (excluding hidden ones)
+```bash
+ls
+```
+<sub>_use `-a` or `--all` to view hidden files too_</sub>
+
+- To create a sub-directory in the current directory.
+```bash
+mkdir `directory_name`
 ```
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+- Navigate to directory using.
+```bash
+cd `path/to/directory`
+```
+<sub>_use `.` to view current directory_, `..` to switch to the parent directory and `~` to switch to the home directory</sub>
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+- To remove a directory write.
+```bash
+rmdir `directory_name`
+```
+
+###### Now, let's interact with some files and gain a better understanding of how the commands function.
+
+- To create a file with a given filename.
+```bash
+touch <file_name>
+```
+
+- To copy one file and paste it with other name (just like copy pasting file in windows and renaming the file)
+```bash
+cp <file1> <file2>
+```
+<sub>_file2 is the new file which is the replica of file1_</sub>
+
+- To cut one file and paste it with other name (just like copy pasting file in windows and renaming the file)
+```bash
+mv <file1> <file2>
+```
+<sub>_file2 is the new file which is the replica of file1_</sub>
+
+- To display the content of any file.
+```bash
+cat <file_name>
+```
+
+- To display page by page content of any file.
+```bash
+less <file_name>
+```
+
+- To display first few lines of any file.
+```bash
+head <file_name>
+```
+
+- To display last few lines of any file.
+```bash
+tail <file_name>
+```
+
+- To view the count of number of lines/words/characters of any file.
+```bash
+wc <file_name>
+```
+
+In conclusion, the world of Linux and Unix is a vast and fascinating one, and we've only scratched the surface with these basic commands. As we embark on this journey together, rest assured that there will be more insightful blog posts to come, delving deeper into the intricacies of these powerful operating systems. Stay tuned and keep practicing the commands we've explored today, because the more you immerse yourself in this world, the more you'll uncover its endless possibilities. Your Linux and Unix adventure has just begun!
