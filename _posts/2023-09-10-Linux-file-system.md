@@ -11,14 +11,16 @@ tags:
   - file system
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
 ---
 
 ## Introduction
+
 When you delve into the world of Linux and Unix operating systems, you'll quickly encounter a distinctive feature that sets them apart from other OS families: the file system hierarchy. This organized structure forms the backbone of these operating systems, and understanding it is essential for anyone looking to harness their full potential.
 
 In this blog post, we'll take you on a guided tour of the file system hierarchy in Linux and Unix. From the root directory to the essential system directories, you'll learn how files and directories are organized, what each directory contains, and how this structure plays a crucial role in system management and navigation.
+
 ## Visualize the Directories using `tree`
+
 It makes sense to explore the Linux filesystem from a terminal window because a terminal, despite being text-only, has better tools to show the map of Linux’s directory tree.
 
 In fact, that is the name of the first tool you’ll install to help you on the way: tree. If you are using Ubuntu or Debian, you can do:
@@ -28,55 +30,65 @@ sudo apt install tree
 ```
 
 On Red Hat or Fedora, do:
+
 ```bash
 sudo dnf install tree
 ```
 
 Once installed, stay in your terminal window and run tree like this:
+
 ```bash
 tree /
 ```
+
 Instead of running the above command use the command given below to limit the file to a certain level. I am using to 1st level only.
+
 ```bash
 tree / -L 1
 ```
+
 ![]({{site.url}}/assets/file-system-hireracy/unix_tree_structure.png)
+
 ### 1. The Root Directory (/):
+
 The starting point of the file system hierarchy is the root directory, denoted simply as "/". Everything in Linux and Unix stems from this directory, and it contains every other directory and file. When you see a forward slash at the beginning of a path, it means you're starting from the root directory.
 
-
 ### 2. Essential System Directories:
+
 - **/bin**: Short for "binary," this directory houses essential system binaries and commands necessary for system recovery and repair. Commands like ls (list files), cp (copy), and mv (move) reside here.
 
--  **/etc**: This directory stores system-wide configuration files and settings. It's a treasure trove for system administrators, containing files for networking, software configurations, and more.
+- **/etc**: This directory stores system-wide configuration files and settings. It's a treasure trove for system administrators, containing files for networking, software configurations, and more.
 
--  **/home**: Users' home directories are located here. Each user typically has their own subdirectory where they can store personal files and configurations.
+- **/home**: Users' home directories are located here. Each user typically has their own subdirectory where they can store personal files and configurations.
 
-*Note: **/home** is  the directory where you mostlty spend you time.*
+_Note: **/home** is the directory where you mostlty spend you time._
 {: .notice--info}
--  **/var**: Variable data, such as logs, spool files, and cached data, resides here. It's dynamic and can grow in size as your system operates.
 
--  **/dev**: Device files are found in this directory. These special files represent hardware devices and peripherals, allowing programs to interact with them directly.
+- **/var**: Variable data, such as logs, spool files, and cached data, resides here. It's dynamic and can grow in size as your system operates.
+
+- **/dev**: Device files are found in this directory. These special files represent hardware devices and peripherals, allowing programs to interact with them directly.
 
 ### 3. System Configuration:
 
--  **/boot**: The boot loader configuration and kernel files are stored here. This directory plays a crucial role in the system's startup process.
+- **/boot**: The boot loader configuration and kernel files are stored here. This directory plays a crucial role in the system's startup process.
 
-*Note: **/boot** is the **NEVER TO TOUCH** directory where you don't have to mess with things.*
+_Note: **/boot** is the **NEVER TO TOUCH** directory where you don't have to mess with things._
 {: .notice--danger}
--  **/etc**: As mentioned earlier, /etc houses system-wide configuration files. It's a central hub for customizing system behavior.
+
+- **/etc**: As mentioned earlier, /etc houses system-wide configuration files. It's a central hub for customizing system behavior.
 
 ### 4. User Data and Settings:
 
--  **/home**: Users' home directories, where they can create their own folders and store personal files.
+- **/home**: Users' home directories, where they can create their own folders and store personal files.
 
--  **/root**: The home directory for the system's superuser (root). It's typically not accessible to regular users.
+- **/root**: The home directory for the system's superuser (root). It's typically not accessible to regular users.
 
 ### 5. Temporary Files:
 
--  **/tmp**: Temporary files and directories are stored here. It's a common location for applications to create and mangage temporary data.
+- **/tmp**: Temporary files and directories are stored here. It's a common location for applications to create and mangage temporary data.
 
 ### 6. System Libraries:
+
 - **/lib and /lib64**: These directories house shared libraries used by programs throughtout the system. /lib contains 32-bit libraries, while lib64 contains 64-bit libraries on system that use the multilib approach.
 
 ### 7. Device Files:
