@@ -12,6 +12,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 toc_sticky: true
+excerpt: Have you ever marveled at the magic behind your computer screen, wondering how the software you use daily comes to life? In an age where technology seamlessly integrates 
 ---
 
 ![image-center](/assets/how-program-executes/Computer-programmer.jpeg){: .align-center}

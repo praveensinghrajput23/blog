@@ -10,6 +10,7 @@ tags:
   - command
 toc: true
 toc_label: "Table of Contents"
+excerpt: In the realm of operating systems, two names stand out as giants in the world of computing - Linux and Unix.
 ---
 
 ## Introduction

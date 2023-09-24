@@ -11,6 +11,7 @@ tags:
   - file system
 toc: true
 toc_label: "Table of Contents"
+excerpt: When you delve into the world of Linux and Unix operating systems, you'll quickly encounter a distinctive feature that sets them apart from other OS families the file system hierarchy.
 ---
 
 ## Introduction
