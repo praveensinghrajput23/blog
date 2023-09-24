@@ -11,6 +11,7 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+toc_sticky: true
 ---
 
 Have you ever marveled at the magic behind your computer screen, wondering how the software you use daily comes to life? In an age where technology seamlessly integrates into our lives, the inner workings of computer programs remain a fascinating enigma for many. It's easy to take for granted the applications, games, and tools that make our digital world thrive, but understanding the intricate dance of code and hardware that powers them is a journey worth embarking upon.
