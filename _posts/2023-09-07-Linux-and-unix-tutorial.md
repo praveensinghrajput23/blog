@@ -45,7 +45,7 @@ As an illustration of the way that the shell and the kernel work together, suppo
 
 ## Unix directory structure
 
-![]({{site.url}}/assets/linux-and-unix-tutorial/directory-tree.gif)
+![]({{site.url}}/blog/assets/linux-and-unix-tutorial/directory-tree.gif)
 
 Soon I will post in-depth blog on Linux direcotory structure
 {: .notice}
