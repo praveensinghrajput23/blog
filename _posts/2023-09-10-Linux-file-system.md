@@ -48,7 +48,7 @@ Instead of running the above command use the command given below to limit the fi
 tree / -L 1
 ```
 
-![]({{site.url}}/assets/file-system-hireracy/unix_tree_structure.png)
+![]({{site.url}}/blog/assets/file-system-hireracy/unix_tree_structure.png)
 
 ### 1. The Root Directory (/):
 
